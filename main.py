@@ -1,0 +1,4 @@
+from pipeline import DataIngestionPipeline
+
+ingestion_pipeline= DataIngestionPipeline()
+ingestion_pipeline.run_ingestion_pipeline()
