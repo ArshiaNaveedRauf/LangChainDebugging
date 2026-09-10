@@ -21,7 +21,10 @@ jobs:
     - name: install dependencies
       run: pip install -r requirements.txt
 
-    - name: run tests
+    - name: Run tests
+      env:
+         GroqAPIKey: ${{ secrets.GroqAPIKey}}
       run: pytest
+  
 
     
