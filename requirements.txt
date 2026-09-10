@@ -2,3 +2,5 @@ langchain-community
 langchain
 pypdf
 langchain-text-splitters
+ sentence-transformers
+ chromadb
