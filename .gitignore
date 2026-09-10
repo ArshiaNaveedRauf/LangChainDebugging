@@ -9,3 +9,6 @@
  create mode 100644 src/data/data_chunking.py
  create mode 100644 src/data/data_loader.py
  create mode 100644 tests/__init__.py
+.env
+__pycache__/
+*.pyc

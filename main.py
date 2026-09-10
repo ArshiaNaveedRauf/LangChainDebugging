@@ -1,4 +1,4 @@
-from pipeline import DataIngestionPipeline
+from pipeline import DataIngestionAndRetrivalPipeline
 
-ingestion_pipeline= DataIngestionPipeline()
-ingestion_pipeline.run_ingestion_pipeline()
+ingestion_pipeline=DataIngestionAndRetrivalPipeline()
+ingestion_pipeline.run_retrival_pipeline()
