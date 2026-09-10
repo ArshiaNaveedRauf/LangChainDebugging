@@ -23,7 +23,7 @@ jobs:
 
     - name: Run tests
       env:
-         GroqAPIKey: ${{ secrets.GroqAPIKey}}
+         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY}}
       run: pytest
   
 

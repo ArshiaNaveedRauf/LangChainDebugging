@@ -4,7 +4,7 @@ import os
 class Rag:
     load_dotenv()
     def __init__(self):
-        self.api_key= os.getenv("GroqAPIKey")
+        self.api_key= os.getenv("GROQ_API_KEY")
         self.llm= ChatGroq(groq_api_key=self.api_key,model_name= "openai/gpt-oss-120b",temperature=0.1,max_tokens=2000)
 
     def context(self,retrived_docs):
